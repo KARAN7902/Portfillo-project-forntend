@@ -45,7 +45,39 @@ h1 sub {
 .margin-navlinks a{
     text-decoration: none;
 }
-.nav-btn{
+.nav .btn{
     height: 50px;
     width: 50px;
+}
+.nav .right-nav{
+    width: 50%;
+    text-align: right;
+    align-self: center;
+}
+.nav .btn{
+    background: transparent;
+    font-size: 20px;
+}
+.nav-link-2{
+    position:fixed;
+    right: 0;
+    height: 100%;
+    background-color: red;
+    width: 250px;
+}
+.nav-link-2 .cbtn{
+    height: 60px;
+}
+.nav-link-2 .cancel-btn{
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: none;
+}
+.actions2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
 }
