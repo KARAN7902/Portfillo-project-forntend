@@ -39,45 +39,83 @@ h1 sub {
     font-size: 25px;
 
 }
-.margin-navlinks{
-  margin: 10px; 
+
+.margin-navlinks {
+    margin: 10px;
 }
-.margin-navlinks a{
+
+.margin-navlinks a {
     text-decoration: none;
 }
-.nav .btn{
+
+.nav .btn {
     height: 50px;
     width: 50px;
 }
-.nav .right-nav{
+
+.nav .right-nav {
     width: 50%;
     text-align: right;
     align-self: center;
 }
-.nav .btn{
+
+.nav .btn {
     background: transparent;
+    border: transparent;
     font-size: 20px;
 }
-.nav-link-2{
-    position:fixed;
+
+.nav-link-2 {
+    position: fixed;
     right: 0;
     height: 100%;
     background-color: red;
     width: 250px;
 }
-.nav-link-2 .cbtn{
+
+.nav-link-2 .cbtn {
     height: 60px;
 }
-.nav-link-2 .cancel-btn{
+
+.nav-link-2 .cancel-btn {
     position: absolute;
+    color: black;
     right: 0;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
 }
-.actions2{
+
+.actions2 {
     display: flex;
+    font-size: 20px;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between;*/
     text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+.actions2 a {
+    text-decoration: none;
+}
+
+.actions2 .about {
+    padding: 10px;
+    border-top: 0.5px white solid;
+
+    border-bottom: 0.5px white solid;
+}
+
+.actions2 .skills {
+    padding: 10px;
+    border-top: 0.5px white solid;
+
+}
+
+.actions2 .contact-me {
+    padding: 10px;
+    border-top: 0.5px white solid;
+    border-bottom: 0.5px white solid;
+
 }
