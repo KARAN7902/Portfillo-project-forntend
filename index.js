@@ -1,3 +1,5 @@
+
+closeNextNav();
 function openNextNav(){
     document.querySelector('.cancel-btn').style.visibility="visible";
     let navElement=document.querySelector('.nav-link-2');
