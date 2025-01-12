@@ -111,21 +111,21 @@ h1 sub {
 
 .actions2 .about {
     padding: 10px;
-    border-top: 0.5px white solid;
+    border-top: 0.5px rgb(0, 0, 0) solid;
 
-    border-bottom: 0.5px white solid;
+    border-bottom: 0.5px rgb(0, 0, 0) solid;
 }
 
 .actions2 .skills {
     padding: 10px;
-    border-top: 0.5px white solid;
+    border-top: 0.5px rgb(0, 0, 0) solid;
 
 }
 
 .actions2 .contact-me {
     padding: 10px;
-    border-top: 0.5px white solid;
-    border-bottom: 0.5px white solid;
+    border-top: 0.5px rgb(0, 0, 0) solid;
+    border-bottom: 0.5px rgb(0, 0, 0) solid;
 
 }
 
@@ -144,3 +144,4 @@ h1 sub {
     }
     
 }
+
