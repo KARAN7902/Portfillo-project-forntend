@@ -15,33 +15,40 @@
 
 <body>
   <header>
-  <nav id="nav1" class="nav">
-    <div class="actions">
-      <div class="header">
-        <h1>KARAN.<sub>Dev</sub></h1>
+    <nav id="nav1" class="nav">
+      <div class="actions">
+        <div class="header">
+          <h1>KARAN.<sub>Dev</sub></h1>
+        </div>
+        <div class="nav-links">
+          <span class="margin-navlinks"><a href="#">About Me</a></span>
+          <span class="margin-navlinks"><a href="#">Technologies</a></span>
+          <span class="margin-navlinks"><a href="#">Contact Me</a></span>
+        </div>
       </div>
-      <div class="nav-links">
-        <span class="margin-navlinks"><a href="">About Me</a></span>
-        <span class="margin-navlinks"><a href="">Technologies</a></span>
-        <span class="margin-navlinks"><a href="">Contact Me</a></span>
+      <div class="right-nav">
+        <button class="btn" onclick="openNextNav();"><i
+            class="fa-sharp-duotone fa-solid fa-bars-staggered"></i></button>
       </div>
-    </div>
-    <div class="right-nav">
+      <div class="nav-link-2">
+        <div class="cbtn">
+          <a class="cancel-btn" onclick="closeNextNav();" href="">&times;</a>
+        </div>
+        <div class="actions2">
+          <div class="about"><a href="#">About</a></div>
+          <div class="skills"><a href="#">Technologies</a></div>
+          <div class="skills"><a href="#">Projects</a></div>
+          <div class="contact-me"><a href="#">Contact Me</a></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
 
-      <button class="btn" onclick="openNextNav();"><i class="fa-sharp-duotone fa-solid fa-bars-staggered"></i></button>
-    </div>
-    <div class="nav-link-2">
-      <div class="cbtn">
-        <a class="cancel-btn" onclick="closeNextNav();" href="javascript:void(0)">&times;</a>
-      </div>
-      <div class="actions2">
-        <div class="about"><a href="">About</a></div>
-        <div class="skills"><a href="">Technologies</a></div>
-        <div class="skills"><a href="">Projects</a></div>
-        <div class="contact-me"><a href="">Contact Me</a></div>
-      </div>
-    </div>
-  </nav>
+  </main>
+  <footer>
+
+  </footer>
   <script src="/index.js"></script>
 </body>
 
