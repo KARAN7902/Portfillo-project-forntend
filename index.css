@@ -1,6 +1,9 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Charm", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 body{
     background-color:rgba(0,0,0,0.8);
@@ -10,12 +13,12 @@ body{
     background-color: red;
     height: 60px;
     display: flex;
-    width: 100%;
+    width: 100vw;
     /* justify-content: space-evenly;*/
 }
 
 .actions {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
 }
@@ -42,7 +45,9 @@ h1 sub {
     font-size: 25px;
 
 }
-
+.nav-links a{
+    color: black;
+}
 .margin-navlinks {
     margin: 10px;
 }
@@ -57,7 +62,7 @@ h1 sub {
 }
 
 .nav .right-nav {
-    width: 50%;
+    width: 40%;
     text-align: right;
     align-self: center;
 }
@@ -83,7 +88,7 @@ h1 sub {
 .nav-link-2 .cancel-btn {
     position: absolute;
     color: black;
-    right: 0;
+    right: 15px;
     text-transform: uppercase;
     font-size: 40px;
     text-decoration: none;
@@ -101,6 +106,7 @@ h1 sub {
 
 .actions2 a {
     text-decoration: none;
+    color: black;
 }
 
 .actions2 .about {
@@ -123,8 +129,18 @@ h1 sub {
 
 }
 
-@media screen and (min-width:375px) and (max-width:1025px) {
+@media screen and (min-width:0px) and (max-width:1020px) {
 
+    .nav-links{
+        visibility: hidden;
+    }
     
+}
+
+@media screen and (min-width:1021px) and (max-width:3000px) {
+
+    .right-nav{
+        visibility: hidden;
+    }
     
 }
