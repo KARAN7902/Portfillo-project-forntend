@@ -141,6 +141,12 @@ h1 sub {
     .nav-links{
         visibility: hidden;
     }
+}
+@media screen and (min-width:0px) and (max-width:1020px) {
+    
+    .about-met{
+        height: 400px;
+    }
     
 }
 
