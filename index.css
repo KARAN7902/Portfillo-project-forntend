@@ -179,3 +179,9 @@ h1 sub {
     height: 100%;
     width: 50%;
   }
+p span{
+    color: red;
+}
+b span{
+    color: red;
+}
