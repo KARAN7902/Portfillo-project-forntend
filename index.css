@@ -194,7 +194,19 @@ b span{
 }
 .about{
     margin-top: 10px;
+    display: flex;
  width: 100%;
  color: #fff;
  background: linear-gradient(to right,black,red,black);
+}
+.about #left-part{
+    width: 50%;
+}
+.about #left-part img{
+    height: 300px;
+    width: 80%;
+    margin: 10%;
+}
+.about #right-part{
+    width: 50%;
 }
