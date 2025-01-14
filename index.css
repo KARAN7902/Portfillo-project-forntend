@@ -192,6 +192,9 @@ p span{
 b span{
     color: red;
 }
-.about-me h1{
-    text-align: center;
+.about{
+    margin-top: 10px;
+ width: 100%;
+ color: #fff;
+ background: linear-gradient(to right,black,red,black);
 }
