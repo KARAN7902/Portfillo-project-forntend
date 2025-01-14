@@ -192,3 +192,6 @@ p span{
 b span{
     color: red;
 }
+.about-me h1{
+    text-align: center;
+}
