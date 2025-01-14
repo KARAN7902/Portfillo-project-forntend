@@ -201,10 +201,11 @@ b span{
 }
 .about #left-part{
     width: 50%;
+    text-align: center;
 }
 .about #left-part img{
     height: 300px;
-    width: 80%;
+    width: 300px;
     margin: 10%;
 }
 .about #right-part{
