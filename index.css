@@ -214,8 +214,8 @@ b span{
     width: 50%;
     margin: 4%;
 }
-.tech-section{
-    display:flex;
+.tech-section{ 
+    margin-left: 20%;
     color: #fff;
     background: linear-gradient(to right,black,red,black);
     width: 100%;
