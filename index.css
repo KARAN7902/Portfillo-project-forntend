@@ -214,3 +214,10 @@ b span{
     width: 50%;
     margin: 4%;
 }
+.tech-section{
+    display:flex;
+    color: #fff;
+    background: linear-gradient(to right,black,red,black);
+    width: 100%;
+    margin-top: 10px;
+}
