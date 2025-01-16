@@ -11,12 +11,9 @@ body{
         background-clip: unset;
         color: transparent; 
 }
-.hr{
-    background-color: black;
-}
 
 .nav {
-    /* background: linear-gradient(to right,black, red); */
+    background: linear-gradient(to right,black,#c92a42,black);
     height: 60px;
     display: flex;
     width: 100vw;
@@ -262,6 +259,8 @@ h1 span{
 .container2{
     width: 90%;
     margin: 5%;
+    text-transform: capitalize;
+
 }
 #about-me span:hover{
     border-bottom: 2px red solid;
