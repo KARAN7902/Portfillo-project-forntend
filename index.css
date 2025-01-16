@@ -157,7 +157,13 @@ h1 sub {
     .right-nav,.btn{
         visibility: hidden;
     }
-    
+  }
+@media screen and (min-width:1021px) and (max-width:3000px) {
+
+    .left-part{
+        font-size: xx-large;
+        text-transform: capitalize;
+    }
 }
 
 /* .about-me{
@@ -227,6 +233,7 @@ b span{
     height: 500px;
 } */ 
 .container{
+    position: fixed;
     width:90%;
     height: 500px;
     margin: 5%;
@@ -237,6 +244,7 @@ b span{
     background-color: #900e0e;
     border: 2px red solid;
     border-radius: 5px;
+    color: red;
 
 }
 .right-part{
@@ -247,6 +255,6 @@ b span{
 }
 .right-part img{
     height: 100%;
-    width: 50%;
+    width: 40%;
     background: transparent;
 }
