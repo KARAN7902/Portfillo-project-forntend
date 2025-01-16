@@ -24,7 +24,7 @@ body{
 }
 
 .actions {
-    width: 60%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
 }
@@ -70,7 +70,7 @@ h1 sub {
 }
 
 .nav .right-nav {
-    width: 40%;
+    width: 55%;
     text-align: right;
     align-self: center;
 }
@@ -85,7 +85,7 @@ h1 sub {
     position: fixed;
     right: 0;
     height: 100%;
-    background: linear-gradient(to right, red,rgba(0,0,0,0.2));
+    background-color: rgb(255, 0, 80);
     width: 250px;
 }
 
@@ -154,7 +154,7 @@ h1 sub {
 
 @media screen and (min-width:1021px) and (max-width:3000px) {
 
-    .right-nav{
+    .right-nav,.btn{
         visibility: hidden;
     }
     
@@ -187,7 +187,7 @@ h1 sub {
     height: 100%;
     width: 50%;
   }
-p span{
+ h1 span,p span{
     color: red;
 }
 b span{
