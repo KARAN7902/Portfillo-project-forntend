@@ -1,3 +1,42 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image-container img {
+            display: block;
+        }
+
+        .image-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at top left, rgba(0, 0, 0, 0.8), transparent),
+                        radial-gradient(circle at top right, rgba(0, 0, 0, 0.1), transparent),
+                        radial-gradient(circle at bottom left, rgba(0, 0, 0, 0.1), transparent),
+                        radial-gradient(circle at bottom right, rgba(0, 0, 0, 0.1), transparent);
+            pointer-events: none;
+        }
+    </style>
+    <title>Black Corners on Image</title>
+</head>
+<body>
+    <div class="image-container">
+        <img src="/images/backgrondimg.png.jpg" alt="Sample Image">
+    </div>
+</body>
+</html>
+
+
   <!-- <div class="about-me">
       <div class="left-part">
         <h1>
