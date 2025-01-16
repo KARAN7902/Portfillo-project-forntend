@@ -1,12 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Charm", serif;
+    /* font-family: "Charm", serif; */
     font-weight: 700;
     font-style: normal;
 }
 body{
-        background: linear-gradient(to right,black, red);
+       background-color:black;
         -webkit-background-clip: text;
         background-clip: unset;
         color: transparent; 
@@ -16,7 +16,7 @@ body{
 }
 
 .nav {
-    background: linear-gradient(to right,black, red);
+    /* background: linear-gradient(to right,black, red); */
     height: 60px;
     display: flex;
     width: 100vw;
@@ -84,7 +84,7 @@ h1 sub {
     position: fixed;
     right: 0;
     height: 100%;
-    background: linear-gradient(to right, red,black);
+    /* background: linear-gradient(to right, red,black); */
     width: 250px;
 }
 
@@ -164,7 +164,7 @@ h1 sub {
     border-radius: 10px;
     flex-wrap: wrap;
     height: 300px;
-    background: linear-gradient(to right,black, red,black);
+    /* background: linear-gradient(to right,black, red,black); */
     margin-top: 5%;
     border-color: red;
   color:white;
@@ -197,7 +197,7 @@ b span{
     display: flex;
  width: 100%;
  color: #fff;
- background: linear-gradient(to right,black,red,black);
+ /* background: linear-gradient(to right,black,red,black); */
 }
 .about #left-part{
     width: 50%;
@@ -217,7 +217,7 @@ b span{
 .tech-section{ 
     margin-left: 20%;
     color: #fff;
-    background: linear-gradient(to right,black,red,black);
+    /* background: linear-gradient(to right,black,red,black); */
     width: 100%;
     margin-top: 10px;
 }
