@@ -13,11 +13,11 @@ body{
 }
 
 .nav {
-    background: linear-gradient(to right,black,#c92a42,black);
+    background: linear-gradient(to right,black,#ff0000,black);
     height: 60px;
     display: flex;
     width: 100vw;
-    /* justify-content: space-evenly;*/
+    /* justify-content: space-evenly;#c92a42*/
 }
 
 .actions {
