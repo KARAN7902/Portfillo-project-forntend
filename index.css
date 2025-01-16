@@ -32,7 +32,6 @@ body{
 .nav h1 {
     color: red;
     padding: 15px;
-    font-family: "Charm", serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -149,7 +148,7 @@ h1 sub {
     .about-met{
         height: 400px;
     }
-    
+  
 }
 
 @media screen and (min-width:1021px) and (max-width:3000px) {
@@ -233,7 +232,7 @@ b span{
     height: 500px;
 } */ 
 .container{
-    position: fixed;
+    position:static;
     width:90%;
     height: 500px;
     margin: 5%;
@@ -241,10 +240,8 @@ b span{
 }
 .left-part{
     width: 50%;
-    background-color: #900e0e;
-    border: 2px red solid;
     border-radius: 5px;
-    color: red;
+    color:white;
 
 }
 .right-part{
@@ -256,5 +253,20 @@ b span{
 .right-part img{
     height: 100%;
     width: 40%;
-    background: transparent;
+}
+h1 span{
+    color: red;
+}
+
+@media screen and (min-width:0px) and (max-width:1020px) {
+    
+    .right-part img{
+        width: 80%;
+    }
+}
+.text-color{
+    color: #fff;
+}
+.about-me:hover{
+    border-bottom: 2px red solid;
 }
