@@ -160,13 +160,13 @@ h1 sub {
     
 }
 
-.about-me{
+/* .about-me{
     display: flex;
     border-radius: 10px;
     flex-wrap: wrap;
     height: 300px;
     /* background: linear-gradient(to right,black, red,black); */
-    margin-top: 5%;
+    /* margin-top: 5%;
     border-color: red;
   color:white;
   }
@@ -199,7 +199,7 @@ b span{
  width: 100%;
  color: #fff;
  /* background: linear-gradient(to right,black,red,black); */
-}
+/* }
 .about #left-part{
     width: 50%;
     text-align: center;
@@ -219,10 +219,34 @@ b span{
     margin-left: 20%;
     color: #fff;
     /* background: linear-gradient(to right,black,red,black); */
-    width: 100%;
+    /* width: 100%;
     margin-top: 10px;
 }
 .contact-section{
     text-align: center;
     height: 500px;
+} */ 
+.container{
+    width:90%;
+    height: 500px;
+    margin: 5%;
+    display: flex;
+}
+.left-part{
+    width: 50%;
+    background-color: #900e0e;
+    border: 2px red solid;
+    border-radius: 5px;
+
+}
+.right-part{
+    width: 50%;
+    text-align: right;
+    background: transparent;
+
+}
+.right-part img{
+    height: 100%;
+    width: 50%;
+    background: transparent;
 }
