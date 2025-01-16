@@ -178,7 +178,7 @@ h1 sub {
   }
   .image img{
     height: 300px;
-    width: 300px;
+    width: 200px;
     border: 3px red solid;
     border-radius: 5%;
   }
