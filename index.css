@@ -143,14 +143,6 @@ h1 sub {
     }
     
 }
-@media screen and (min-width:0px) and (max-width:1020px) {
-    
-    .about-met{
-        height: 400px;
-    }
-  
-}
-
 @media screen and (min-width:1021px) and (max-width:3000px) {
 
     .right-nav,.btn{
@@ -267,6 +259,13 @@ h1 span{
 .text-color{
     color: #fff;
 }
-.about-me:hover{
+.container2{
+    width: 90%;
+    margin: 5%;
+}
+#about-me span:hover{
     border-bottom: 2px red solid;
+}
+ #about-me{
+    margin-bottom: 20px;
 }
