@@ -273,3 +273,6 @@ h1 span{
     padding-bottom: 5px;
     border-bottom: 5px red solid;
 }
+.form-container{
+    text-align: center;
+}
