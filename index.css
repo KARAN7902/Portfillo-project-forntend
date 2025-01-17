@@ -228,6 +228,7 @@ b span{
     display: flex;
 }
 .left-part{
+    text-transform: capitalize;
     width: 50%;
     border-radius: 5px;
     color:white;
