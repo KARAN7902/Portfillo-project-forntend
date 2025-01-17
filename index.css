@@ -13,7 +13,7 @@ body{
 }
 
 .nav {
-    background: linear-gradient(to right,black,#ff0000,black);
+   /* background: linear-gradient(to right,black,#ff0000,black);*/
     height: 60px;
     display: flex;
     width: 100vw;
@@ -81,7 +81,7 @@ h1 sub {
     position: fixed;
     right: 0;
     height: 100%;
-    background-color: rgb(255, 0, 80);
+    background-color:white;
     width: 250px;
 }
 
@@ -91,7 +91,7 @@ h1 sub {
 
 .nav-link-2 .cancel-btn {
     position: absolute;
-    color:white;
+    color:red;
     right: 15px;
     text-transform: uppercase;
     font-size: 40px;
@@ -110,7 +110,7 @@ h1 sub {
 
 .actions2 a {
     text-decoration: none;
-    color: black;
+    color: red;
 }
 
 .actions2 .about {
