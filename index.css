@@ -269,3 +269,7 @@ h1 span{
  #about-me{
     margin-bottom: 20px;
 }
+.margin-navlinks:hover{
+    padding-bottom: 5px;
+    border-bottom: 5px red solid;
+}
