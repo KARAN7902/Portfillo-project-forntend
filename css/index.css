@@ -214,10 +214,12 @@ h1 span{
 
 .container3{
     /* background-color:white; */
+    margin-top: 50px;
     display: block;
     color: black;
 }
 .tech{
+    margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
     width: 90%;
@@ -238,9 +240,19 @@ h1 span{
     margin: 10px;
     border-radius: 5px;
 }
-.tech-img:hover{
-    /* background-color:rgba(255,0,0,0.2); */
-    border: red 2px solid;
+#img1:hover{
+    background-color:#cccccc; 
+}
+#img2:hover{
+    background-color:#b3b3b3; 
+}#img3:hover{
+    background-color:#999999; 
+}#img4:hover{
+    background-color:#808080; 
+}#img5:hover{
+    background-color:#666666; 
+}#img6:hover{
+    background-color:#4d4d4d; 
 }
 @media screen and (min-width:0px) and (max-width:1020px) {
     
