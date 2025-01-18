@@ -218,4 +218,11 @@ h1 span{
 .container3{
     background-color:white;
     display: block;
+    color: black;
+}
+.tech{
+    display: flex;
+}
+.tech-img{
+    text-align: center;
 }
