@@ -220,17 +220,17 @@ h1 span{
 .tech{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     justify-content: center;
 
 }
 .tech-img img{
-    padding: 10px;
     height: 200px;
     width: 150px;
 }
 .tech-img{
+    padding: 10px;
     background-color: #fff;
     width: 200px;
     text-align: center;
@@ -245,6 +245,7 @@ h1 span{
         width: 70px;
         text-align: center;
         margin: 10px;
+        padding: 10px 0;
     }
 
     .tech-img img{
