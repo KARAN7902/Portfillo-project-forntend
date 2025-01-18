@@ -211,10 +211,7 @@ h1 span{
 .form-container{
     text-align: center;
 }
-.tech-img img{
-    height: 70px;
-    width: 50px;
-}
+
 .container3{
     /* background-color:white; */
     display: block;
@@ -228,9 +225,30 @@ h1 span{
     justify-content: center;
 
 }
+.tech-img img{
+    padding: 10px;
+    height: 200px;
+    width: 150px;
+}
 .tech-img{
     background-color: #fff;
-    width: 70px;
+    width: 200px;
     text-align: center;
     margin: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width:0px) and (max-width:1020px) {
+    
+    .tech-img{
+        background-color: #fff;
+        width: 70px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .tech-img img{
+        height: 70px;
+        width: 50px;
+    }
 }
