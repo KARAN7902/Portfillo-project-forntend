@@ -216,13 +216,21 @@ h1 span{
     width: 50px;
 }
 .container3{
-    background-color:white;
+    /* background-color:white; */
     display: block;
     color: black;
 }
 .tech{
     display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+
 }
 .tech-img{
+    background-color: #fff;
+    width: 70px;
     text-align: center;
+    margin: 10px;
 }
