@@ -230,6 +230,7 @@ h1 span{
     width: 150px;
 }
 .tech-img{
+    box-sizing: content-box;
     padding: 10px;
     background-color: #fff;
     width: 200px;
@@ -237,7 +238,10 @@ h1 span{
     margin: 10px;
     border-radius: 5px;
 }
-
+.tech-img:hover{
+    /* background-color:rgba(255,0,0,0.2); */
+    border: red 2px solid;
+}
 @media screen and (min-width:0px) and (max-width:1020px) {
     
     .tech-img{
