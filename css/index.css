@@ -258,14 +258,15 @@ h1 span{
     
     .tech-img{
         background-color: #fff;
-        width: 70px;
+        width: 200px;
+        height: 200px;
         text-align: center;
         margin: 10px;
         padding: 10px 0;
     }
 
     .tech-img img{
-        height: 70px;
-        width: 50px;
+        height: 150px;
+        width: 150px;
     }
 }
