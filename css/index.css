@@ -211,3 +211,7 @@ h1 span{
 .form-container{
     text-align: center;
 }
+.tech-img img{
+    height: 70px;
+    width: 50px;
+}
