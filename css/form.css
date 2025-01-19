@@ -9,12 +9,14 @@ body{
 
 
 .form-container{
+    position: absolute;
     color: white;
     height: 50%;
     width: 500px;
     text-align: center;
     border-radius: 10px;
     background-color:black;
+    z-index: 2;
 }
 
 .form-container h2{
@@ -29,7 +31,7 @@ color: black;
 font-size: larger;
 width: 350px;}
 input::placeholder{
-    color:rgb(103, 209, 209);
+    color:rgba(255,0,0,0.2);
 }
 textarea{border: transparent;
     width: 350px;
