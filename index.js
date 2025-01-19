@@ -14,26 +14,13 @@ function closeNextNav(){
 
 function openNextFormSlide(){
     let slideElement=document.querySelector('.form-container');
-    slideElement.innerHTML=``;
+    slideElement.style.zIndex="1";
 }
 
 
 function openPreviousFormSlide(){
-    let slideElement=document.querySelector('.form-contaier');
-    slideElement.innerHTML=` <h2>Contact Me</h2>
-            <form action="/send_email.php" method="post">
-                <div class="upper-part">
-    
-                   
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
-                   
-                    <input type="email" id="email" name="email"  placeholder="Enter your email" required><br><br>
-                   
-                    <textarea id="message" name="message" placeholder="Enter your valueable Message here"  required></textarea><br><br>
-    
-                </div>
-                <div class="lower-part">
-                    <button onclick="openNextFormSlide();" type="button">Next</button>
-                   <button>Submit</button>
-                </div>`
+    let slideElement=document.querySelector('.form-container2');
+    slideElement.style.zIndex="1";
+    let slideElement2=document.querySelector('.form-container');
+    slideElement2.style.zIndex="5";
 }
