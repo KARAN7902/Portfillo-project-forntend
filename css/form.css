@@ -17,7 +17,6 @@ body{
     border-radius: 10px;
     background-color:black;
     z-index: 2;
-    display: inline-block;
 }
 
 .form-container h2{
@@ -50,11 +49,16 @@ textarea::placeholder
 .form-container2{
     position: relative;
     z-index: 1;
-    top: -19px;
+    top: -25px;
     color: white;
     height: 500px;
     width: 500px;
     text-align: center;
     border-radius: 10px;
-    background-color:red;
+    background-color:blue;
+}
+.form-container2 h2{
+    color:red;
+    font-size: 40px;
+    text-shadow: 3px 1px #fff;
 }
