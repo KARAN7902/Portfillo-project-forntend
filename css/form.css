@@ -1,6 +1,5 @@
-
-body{
-    display:flex;
+body {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -8,57 +7,102 @@ body{
 }
 
 
-.form-container{
+.form-container {
     color: white;
     position: absolute;
-    height: 500px;
+    height: 508px;
     width: 500px;
     text-align: center;
     border-radius: 10px;
-    background-color:black;
+    background-color: black;
     z-index: 2;
 }
 
-.form-container h2{
-    color:red;
+.form-container h2 {
+    color: red;
     font-size: 40px;
     text-shadow: 3px 1px #fff;
 }
-input{border: transparent;
-border-radius: 5px;
-height: 40px;
-color: black;
-font-size: larger;
-width: 350px;}
-input::placeholder{
-    color:rgba(255,0,0,0.2);
+
+input {
+    border: transparent;
+    border-radius: 5px;
+    height: 40px;
+    color: black;
+    font-size: larger;
+    width: 350px;
 }
-textarea{border: transparent;
+
+input::placeholder {
+    color: rgba(255, 0, 0, 0.2);
+}
+
+textarea {
+    border: transparent;
     width: 350px;
     height: 100px
 }
-textarea::placeholder
-{
+
+textarea::placeholder {
     color: rgb(103, 209, 209);
     font-size: large;
 }
+
 /* .lower-part{
   
 } */
 
-.form-container2{
+.form-container2 {
     position: relative;
     z-index: 1;
-    top: -25px;
+    top: -34px;
     color: white;
-    height: 500px;
+    height: 508px;
     width: 500px;
     text-align: center;
     border-radius: 10px;
-    background-color:blue;
+    background-color: blue;
 }
-.form-container2 h2{
-    color:red;
+
+.form-container2 h2 {
+    color: red;
     font-size: 40px;
     text-shadow: 3px 1px #fff;
+}
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555555;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.next-button {
+    background-color: #4CAF50;
+    /* Green */
+}
+
+.submit-button {
+    background-color: #008CBA;
+    /* Blue */
+}
+
+.previous-button {
+    background-color: #f44336;
+    /* Red */
 }
