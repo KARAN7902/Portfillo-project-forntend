@@ -269,4 +269,11 @@ h1 span{
         height: 150px;
         width: 150px;
     }
+   
+}
+.techbox{
+    height: 261px;
+    box-sizing: content-box;
+    background-color:rgb(255,0,0);
+    border-radius:5px;
 }
