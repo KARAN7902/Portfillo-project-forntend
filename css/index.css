@@ -276,4 +276,5 @@ h1 span{
     box-sizing: content-box;
     background-color:rgb(255,0,0);
     border-radius:5px;
+    margin: 2px;
 }
