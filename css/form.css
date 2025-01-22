@@ -35,10 +35,11 @@ input {
 }
 
 input::placeholder {
-    color: rgba(255, 0, 0, 0.2);
+    color:white;
 }
 
 textarea {
+    margin-top: 90px;
     border: transparent;
     width: 350px;
     height: 100px
@@ -90,7 +91,8 @@ textarea::placeholder {
     background: linear-gradient(to right,red,black);
 }
 .input{
-    width: 40%;
+    width: 150px;
+    margin: 0 20px;
     background: linear-gradient(to right,red,black);
 }
 .button:hover {
@@ -98,7 +100,7 @@ textarea::placeholder {
 }
 
 .button:active {
-    transform: scale(0.95);
+    transform: scale(1.2);
 }
 
 .next-button {
