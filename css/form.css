@@ -125,3 +125,8 @@ textarea::placeholder {
 #cnumber{
     width: 70%;
 }
+
+select{
+    background-color:red;
+    border: transparent;
+}
