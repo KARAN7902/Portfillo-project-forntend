@@ -120,3 +120,8 @@ textarea::placeholder {
 .Firstname{
     width: 50%;
 }
+
+
+#cnumber{
+    width: 70%;
+}
