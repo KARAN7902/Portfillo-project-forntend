@@ -35,7 +35,7 @@ input {
 }
 
 input::placeholder {
-    color:white;
+    color:silver;
 }
 
 textarea {
@@ -44,7 +44,9 @@ textarea {
     width: 350px;
     height: 100px
 }
-
+br+label{
+    font-size:800;
+}
 textarea::placeholder {
     color: rgb(103, 209, 209);
     font-size: large;
@@ -87,13 +89,13 @@ textarea::placeholder {
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
-.input-text{
+/* .input-text{
     background: linear-gradient(to right,red,black);
-}
+} */
 .input{
     width: 150px;
     margin: 0 20px;
-    background: linear-gradient(to right,red,black);
+    /* background: linear-gradient(to right,red,black); */
 }
 .button:hover {
     background:linear-gradient(to right ,red,black);
