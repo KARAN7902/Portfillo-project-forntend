@@ -45,7 +45,7 @@ textarea {
     height: 100px
 }
 br+label{
-    font-size:800;
+    font-size:large;
 }
 textarea::placeholder {
     color: rgb(103, 209, 209);
