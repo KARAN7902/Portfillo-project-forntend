@@ -126,7 +126,11 @@ textarea::placeholder {
     width: 70%;
 }
 
+
 select{
+    margin-top: 20px;
     background-color:red;
-    border: transparent;
+    font-size: medium;
+    border-radius: 5px;
+    border: 5px solid green;
 }
