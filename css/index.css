@@ -240,10 +240,10 @@ h1 span{
     text-align: center;
     margin: 10px;
     border-radius: 5px;
-   
+    box-shadow: 5px 5px 20px red; 
 }
 #img1:hover{
-    box-shadow: 5px 5px 20px red; 
+   
  transform: scale(1.1);
  transition: transform 1s ease-in-out;
 }
