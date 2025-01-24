@@ -217,7 +217,7 @@ h1 span{
     /* background-color:white; */
     margin-top: 50px;
     display: block;
-    color: black;
+    color:wheat;
 }
 .tech{
     margin-top: 60px;
@@ -235,7 +235,7 @@ h1 span{
 .tech-img{
     box-sizing: content-box;
     padding: 10px;
-    background-color: #fff;
+    background-color:#000;
     width: 200px;
     text-align: center;
     margin: 10px;
@@ -258,7 +258,7 @@ h1 span{
 @media screen and (min-width:0px) and (max-width:1020px) {
     
     .tech-img{
-        background-color: #fff;
+        background-color:#000;
         width: 200px;
         height: 200px;
         text-align: center;
