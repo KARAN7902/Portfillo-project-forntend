@@ -193,6 +193,10 @@ h1 span{
 .text-color{
     color: #fff;
 }
+#about{
+    box-shadow: 5px 5px 20px red;
+    padding-bottom: 20px;
+}
 .container2{
     width: 90%;
     margin: 5%;
