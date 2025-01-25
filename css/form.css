@@ -19,7 +19,21 @@ body {
     z-index: 2;
     transition: z-index 1s ease;
 }
-
+/* when the form is opende in small devices */
+@media screen and (min-width:0px) and (max-width:1020px) {
+    
+    .form-container {
+        color: white;
+        position: absolute;
+        height: 508px;
+        width: 500px;
+       margin: 0 auto;
+        border-radius: 10px;
+        background-color: #000;
+        z-index: 2;
+        transition: z-index 1s ease;
+    }
+}
 .form-container h2 {
     color: red;
     font-size: 40px;
