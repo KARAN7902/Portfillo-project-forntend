@@ -10,9 +10,9 @@ body {
 
 .form-container {
     color: white;
-    position: absolute;
-    height: 508px;
-    width: 500px;
+    position:absolute;
+    height:30%;
+    width: 30%;
     text-align: center;
     border-radius: 10px;
     background-color: #000;
@@ -24,17 +24,18 @@ body {
     
     .form-container {
         color: white;
-        position: absolute;
+        position: relative;
         height: 508px;
         width: 500px;
        margin: 0 auto;
         border-radius: 10px;
         background-color: #000;
-        z-index: 2;
+        z-index: -1;
         transition: z-index 1s ease;
     }
 }
 .form-container h2 {
+
     color: red;
     font-size: 40px;
     text-shadow: 3px 1px #fff;
