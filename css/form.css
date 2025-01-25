@@ -17,6 +17,7 @@ body {
     border-radius: 10px;
     background-color: #000;
     z-index: 2;
+    transition: z-index 1s ease;
 }
 
 .form-container h2 {
