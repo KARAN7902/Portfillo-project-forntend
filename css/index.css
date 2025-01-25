@@ -197,6 +197,34 @@ h1 span{
     box-shadow: 5px 5px 20px red;
     padding: 0 20px 20px 20px;
 }
+.pos-Relative{
+    position: relative;
+    text-transform: capitalize
+}
+#name::before{
+    content: 'I Am Karan';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    z-index: -1;
+}
+#front::before{
+    content: ' A Frontend ';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    z-index: -1;
+
+
+}
+#dev::before{
+    content: 'Developer';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    z-index: -1;
+
+}
 .container2{
     width: 90%;
     margin: 5%;
