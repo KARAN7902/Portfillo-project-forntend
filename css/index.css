@@ -91,9 +91,10 @@ h1 sub {
 }
 
 .nav-link-2 .cancel-btn {
-    position: absolute;
+    position: relative;
+    float: right;
     color:red;
-    right: 15px;
+    right: 30px;
     text-transform: uppercase;
     font-size: 40px;
     text-decoration: none;
@@ -201,30 +202,7 @@ h1 span{
     position: relative;
     text-transform: capitalize
 }
-#name::before{
-    content: 'I Am Karan';
-    position: absolute;
-    top: -6px;
-    left: -6px;
-    z-index: -1;
-}
-#front::before{
-    content: ' A Frontend ';
-    position: absolute;
-    top: -6px;
-    left: -6px;
-    z-index: -1;
 
-
-}
-#dev::before{
-    content: 'Developer';
-    position: absolute;
-    top: -6px;
-    left: -6px;
-    z-index: -1;
-
-}
 .container2{
     width: 90%;
     margin: 5%;
