@@ -230,6 +230,7 @@ h1 span{
     color:wheat;
 }
 .tech{
+    background-color: #fff;
     margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
@@ -237,6 +238,8 @@ h1 span{
     margin-left: 5%;
     justify-content: center;
 
+}
+#tech-container{
 }
 .tech-img img{
     height: 200px;
