@@ -215,6 +215,7 @@ h1 span{
 }
  #about-me{
     margin-bottom: 20px;
+    transition: all 0.5s ease;
 }
 .margin-navlinks:hover{
     padding-bottom: 5px;
