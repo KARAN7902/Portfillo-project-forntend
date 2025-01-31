@@ -305,3 +305,14 @@ h1 span{
     border-radius:5px;
     margin: 2px;
 }
+
+/*education section*/
+
+#Education-container{
+    height: 100%;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+#education{
+    background-color:#fff;
+}
