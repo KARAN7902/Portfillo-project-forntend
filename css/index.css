@@ -318,15 +318,19 @@ h1 span{
     display: inherit;
     align-items: inherit;
     justify-content: inherit;
-    background-color: rebeccapurple;
+    gap:40px;
 }
 #education{
     background-color:#fff;
-    height: 40vh;
+    height: 51vh;
     width:100%;
 }
 .Education-in-container{
-    width: 340px;
+    width: 440px;
     height:40vh;
     background-color: red;
+    border-radius: 20px;
+}
+.Education-in-container:hover{
+    transform: skew(2deg);
 }
