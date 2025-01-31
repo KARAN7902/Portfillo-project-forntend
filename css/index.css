@@ -335,3 +335,6 @@ h1 span{
 .Education-in-container:hover{
     transform: skew(2deg);
 }
+.educationclass{
+    margin-left: 5%;
+}
