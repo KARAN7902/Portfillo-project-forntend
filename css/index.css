@@ -307,8 +307,12 @@ h1 span{
 }
 
 /*education section*/
-
-#Education-container{
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Education-container{
     height: 100%;
     width: 100%;
     background-color: rebeccapurple;
