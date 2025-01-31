@@ -195,6 +195,7 @@ h1 span{
     color: #fff;
 }
 #about{
+    border-radius: 29px;
     box-shadow: 5px 5px 20px red;
     padding: 20px 20px 20px 20px;
 }
