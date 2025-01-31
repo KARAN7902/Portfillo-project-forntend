@@ -307,7 +307,7 @@ h1 span{
 }
 
 /*education section*/
-.container*{
+.container5{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -319,4 +319,6 @@ h1 span{
 }
 #education{
     background-color:#fff;
+    height: 40vh;
+    width:100%;
 }
