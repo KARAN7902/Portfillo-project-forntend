@@ -315,6 +315,9 @@ h1 span{
 .Education-container{
     height: 100%;
     width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
     background-color: rebeccapurple;
 }
 #education{
