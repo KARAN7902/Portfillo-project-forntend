@@ -325,3 +325,8 @@ h1 span{
     height: 40vh;
     width:100%;
 }
+.Education-in-container{
+    width: 340px;
+    height:40vh;
+    background-color: red;
+}
