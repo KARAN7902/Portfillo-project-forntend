@@ -319,7 +319,7 @@ h1 span{
     display: inherit;
     align-items: inherit;
     justify-content: inherit;
-    gap:40px;
+    gap:100px;
 }
 #education{
     background-color:#fff;
