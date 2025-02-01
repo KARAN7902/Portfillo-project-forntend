@@ -202,6 +202,12 @@ h1 span{
 }
 @media screen and (min-width:0px) and (max-width:1020px) {
     
+    #about{
+        line-height: 25px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:1020px) {
+    
     .right-part img{
 
         width: 80%;
