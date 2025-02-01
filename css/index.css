@@ -312,6 +312,7 @@ h1 span{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .Education-container{
     height: 100%;
@@ -319,6 +320,7 @@ h1 span{
     display: inherit;
     align-items: inherit;
     justify-content: inherit;
+    flex-wrap: wrap;
     gap:100px;
 }
 #education{
