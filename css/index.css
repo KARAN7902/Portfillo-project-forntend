@@ -184,10 +184,10 @@ h1 sub {
 .left-part h1{
     font-size: 100px;
     color:black;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 0.5px white;
 }
 
-#name,#front,#dev span{
+#name span,#front span,#dev span{
     font-size:100px;
     color:black;
     -webkit-text-stroke: 1px red;
