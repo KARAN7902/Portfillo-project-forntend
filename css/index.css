@@ -324,8 +324,20 @@ h1 span{
     flex-wrap: wrap;
     gap:100px;
 }
+@media screen and (min-width:0px) and (max-width:1020px){
+    .Education-container{
+        height: 100%;
+        width: 80%;
+        /* margin-left: 10%; */
+        display: inherit;
+        align-items: inherit;
+        justify-content: inherit;
+        flex-wrap: wrap;
+        gap:100px;
+    }
+}
 #education{
-    background-color:#fff;
+    /* background-color:#fff; */
     /* height: 51vh; */
     width:100%;
 }
@@ -334,9 +346,10 @@ h1 span{
     height:40vh;
     background-color: red;
     border-radius: 20px;
+    transition: all 0.5s ease;
 }
 .Education-in-container:hover{
-    transform: skew(2deg);
+    transform: scale(2);
 }
 .educationclass{
     margin-left: 5%;
