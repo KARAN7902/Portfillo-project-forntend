@@ -181,7 +181,7 @@ h1 sub {
     height: 100%;
     width: 40%;
 }
-.left-part{
+.left-part h1{
     font-size: 42px;
     color:black;
     -webkit-text-stroke: 1px white;
