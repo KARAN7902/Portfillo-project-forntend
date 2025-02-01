@@ -347,7 +347,7 @@ h1 span{
     background-color:#000;
     border-radius: 20px;
     transition: all 0.5s ease;
-    box-shadow: 2px 2px 5px red;
+    box-shadow: 4px 4px 8px red;
 }
 .Education-in-container:hover{
     transform: scale(1.2);
