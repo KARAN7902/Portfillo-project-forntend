@@ -182,6 +182,7 @@ h1 sub {
     width: 40%;
 }
 h1 span{
+    font-size: 42px;
     color:black;
     -webkit-text-stroke: 1px red;
 }
