@@ -344,12 +344,13 @@ h1 span{
 .Education-in-container{
     width: 440px;
     height:40vh;
-    background-color: red;
+    background-color:#000;
     border-radius: 20px;
     transition: all 0.5s ease;
+    box-shadow: 2px 2px 5px red;
 }
 .Education-in-container:hover{
-    transform: scale(2);
+    transform: scale(1.2);
 }
 .educationclass{
     margin-left: 5%;
