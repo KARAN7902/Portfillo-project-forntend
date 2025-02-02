@@ -112,12 +112,15 @@ h1 sub {
     width: 100%;
 }
 
-.actions2 a {
+.actions2 a, span {
     text-decoration: none;
     color: red;
 }
 
 .actions2 .about-m {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     border-top: 0.5px rgb(0, 0, 0) solid;
 
