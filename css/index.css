@@ -137,6 +137,9 @@ h1 sub {
 }
 
 .actions2 .contact-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     border-top: 0.5px rgb(0, 0, 0) solid;
     border-bottom: 0.5px rgb(0, 0, 0) solid;
