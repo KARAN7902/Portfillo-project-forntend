@@ -374,6 +374,9 @@ h1 span{
     justify-content: center;
     flex-wrap: wrap;
 }
+.color{
+    color: red;
+}
 .Education-container{
     height: 100%;
     width: 100%;
