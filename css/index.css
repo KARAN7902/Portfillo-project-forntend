@@ -205,13 +205,13 @@ h1 sub {
 
 #name span,#front span,#dev span{
     font-size:100px;
-    color:black;
+    color:rgba(255,0,0,0.2);
     -webkit-text-stroke: 0.5px red;
 }
 h1 span{
     font-size:43px;
     color:black;
-    -webkit-text-stroke: 0.5px red;
+    -webkit-text-stroke: 1px red;
 }
 #about{
     line-height: 40px;
