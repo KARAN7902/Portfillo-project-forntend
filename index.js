@@ -24,3 +24,6 @@ function openPreviousFormSlide(){
     let slideElement2=document.querySelector('.form-container');
     slideElement2.style.zIndex="5";
 }
+function rotate(){
+    document.querySelector('.cancel-btn').style.rotate="180deg";
+}
