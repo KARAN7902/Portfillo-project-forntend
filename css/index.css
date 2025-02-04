@@ -80,12 +80,12 @@ h1 sub {
 
 .nav-link-2 {
     position: fixed;
-    right: 0;
+    right: -350px;
     height: 100%;
     background-color:black;
     width: 50%;
     max-width: 50%;
-
+transition: all 0.5s linear;
 }
 
 .nav-link-2 .cbtn {
