@@ -157,11 +157,13 @@ transition: all 0.5s linear;
         visibility: hidden;
     }
     
+  
+    
 }
 @media screen and (min-width:1021px) and (max-width:3000px) {
-
-    .right-nav,.btn{
-        visibility: hidden;
+    .nav-link-2,.btn{
+        display: none;
+        width: 0;
     }
   }
 @media screen and (min-width:1021px) and (max-width:3000px) {
