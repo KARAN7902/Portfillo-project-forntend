@@ -161,7 +161,7 @@ transition: all 0.5s linear;
     
 }
 @media screen and (min-width:1021px) and (max-width:3000px) {
-    .nav-link-2,.btn{
+    .nav-link-2,.cbtn{
         display: none;
         width: 0;
     }
