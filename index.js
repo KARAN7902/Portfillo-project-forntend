@@ -3,11 +3,11 @@ closeNextNav();
 function openNextNav(){
     document.querySelector('.cancel-btn').style.visibility="visible";
     let navElement=document.querySelector('.nav-link-2');
-    navElement.style.right="0px";
+    navElement.style.width="50%";
 }
 
 function closeNextNav(){
-    document.querySelector('.nav-link-2').style.right="-350px";
+    document.querySelector('.nav-link-2').style.width="0";
     document.querySelector('.cancel-btn').style.visibility="hidden";
 }
 
