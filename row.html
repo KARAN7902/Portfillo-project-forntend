@@ -1,118 +1,66 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .image-container {
-            position: relative;
-            display: inline-block;
-        }
-
-        .image-container img {
-            display: block;
-        }
-
-        .image-container::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle at top left, rgba(0, 0, 0, 0.8), transparent),
-                        radial-gradient(circle at top right, rgba(0, 0, 0, 0.1), transparent),
-                        radial-gradient(circle at bottom left, rgba(0, 0, 0, 0.1), transparent),
-                        radial-gradient(circle at bottom right, rgba(0, 0, 0, 0.1), transparent);
-            pointer-events: none;
-        }
-    </style>
-    <title>Black Corners on Image</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .nav-link-2 {
+      position:absolute;
+      right: 0px;
+      height: 100%;
+      background-color:black;
+      width: 0%;
+      max-width: 50%;
+  transition: all 0.5s linear;
+  }
+  
+  .nav-link-2 .cbtn {
+      height: 60px;
+  }
+  
+  .nav-link-2 .cancel-btn {
+      position: relative;
+      float: right;
+      color:red;
+      right: 30px;
+      text-transform: uppercase;
+      font-size: 40px;
+      text-decoration: none;
+      background-color: black;
+  }
+  .cancel-btn:active{
+      transform: rotate(30deg);
+      transition:rotate 0.5s ease 1s;
+  }
+  
+  </style>
 </head>
 <body>
-    <div class="image-container">
-        <img src="/images/backgrondimg.png.jpg" alt="Sample Image">
+  <div class="nav-link-2">
+    <div class="cbtn">
+      <a class="cancel-btn" onclick="closeNextNav();rotate();" href="javascript:void(0)">&times;</a>
     </div>
+    <div class="actions2">
+      <div class="about-m nav-link-2-hover:hover"><a href="#about">About</a><span>></span></div>
+      <div class="skills"><a href="#">Technologies <span>></span></a></div>
+      <div class="skills"><a href="#">Projects</a><span>></span></div>
+      <div class="contact-me"><a href="contactform.html">Contact Me</a><span>></span></div>
+    </div>
+  </div>
+  <script>
+    closeNextNav();
+function openNextNav(){
+    document.querySelector('.cancel-btn').style.visibility="visible";
+    let navElement=document.querySelector('.nav-link-2');
+    navElement.style.width="50%";
+}
+
+function closeNextNav(){
+    document.querySelector('.nav-link-2').style.width="0";
+    document.querySelector('.cancel-btn').style.visibility="hidden";
+}
+
+  </script>
 </body>
 </html>
-
-
-  <!-- <div class="about-me">
-      <div class="left-part">
-        <h1>
-          I'm <span>Karan</span>
-        </h1>
-        <br>
-        <p>
-          i'm a <span>Frontend Developer</span> based in Pune,india and a second-year Bachelor of Computer Science
-          student at SSPU. I am passionate about improving my coding skills and developing applications and websites. I
-          build Websites using
-        <pre><b><span>HTML ,CSS and Javascript. </span></b></pre>Working on myself to improve my skills.
-        </p>
-      </div>
-      <div class="image">
-        <img src="/images/backgrondimg.png.jpg" alt="">
-      </div>
-    </div>
-    <div id="about" class="about">
-        <div id="left-part">
-          <!-- <img src="/images/backgrondimg.png.jpg" alt=""> -->
-        <!-- </div>
-      <div id="right-part">
-
-        <h1>About me</h1>
-        <p>
-  
-        Hello everyone!
-  
-        My name is <span>Karan</span>, and I'm a front-end developer based in Baramati,
-        Maharashtra, India. I have 1 years of experience in developing engaging and user-friendly
-        web applications.
-          
-        Currently, I'm pursuing My Bachlor's Degree at SPPU. where I focus on creating interactive
-        and responsive user interfaces using technologies like HTML, CSS and JavaScript.I take 
-        pride in ensuring that every web application I develop not only looks great but also
-        provides a seamless user experience.
-          
-        Outside of work, I enjoy Drowings and intrested in listening music. Additionally, I'm 
-        always eager to learn new technologies and improve my skills through various online courses 
-        and community projects.  
-        I'm excited to be a part of this community and look forward to connecting with fellow 
-        developers and professionals!
-          
-          </p>
-      </div>
-    </div>
-    <div class="tech-section">
-      <div class="title">
-        <h1>
-          Technologies
-        </h1>
-
-      </div>
-      <div class="list">
-
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>C</li>
-          <li>MY SQL</li>
-        </ul>
-      </div>
-    </div>
-    <div class="about">
-       <h1>
-        Projects
-       </h1>
-    </div>
-    <div class="contact-section">
-      <div class="con">
-
-        <h1>Contact Me</h1>
-      </div>
-      <form action="/submit.php">
-        <label for="#name">Enter the Name:</label>
-        <input  id ="name"  type="text" value="name">
-      </form>
-    </div> --> 
